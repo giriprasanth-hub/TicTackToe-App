@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TicTacToeButton">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@android:color/holo_red_dark</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@android:color/black</item> <!-- Black background -->
+        <item name="android:textColor">@android:color/white</item> <!-- White text color -->
+        <item name="android:buttonStyle">@style/CustomButton</item> <!-- Custom button style -->
+    </style>
+    <style name="CustomButton" parent="Widget.AppCompat.Button">
+        <item name="android:backgroundTint">@android:color/holo_red_dark</item> <!-- Red button background -->
+        <item name="android:textColor">@android:color/white</item> <!-- White text on buttons -->
+        <item name="android:layout_margin">8dp</item> <!-- Margin between buttons -->
+    </style>
+
+</resources>
